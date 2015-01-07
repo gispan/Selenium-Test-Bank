@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-mati1.herokuapp.com/" />
+<title>Anonymous Browsing</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Anonymous Browsing</td></tr>
+</thead><tbody>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.notifications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.notifications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.what-is-title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.what-is-content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.what-is-content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.who-can-content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.who-can-content</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.create-account-button.green-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.open-search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.open-search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.search-input</td>
+	<td>${item1_name}</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.itemResultRowDescription.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.itemResultRowDescription.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.itemResultRowDescription.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=#purchaseButton &gt; div.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#purchaseButton &gt; div.title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.popup-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#reportButton &gt; div.icon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.popup-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='messageDiv']/div/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.popup-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.sellerName</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.sendButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.sendButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.popup-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.messageButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.popup-overlay</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[6]/div/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=a.facebookExternalLink</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.open-search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.search-input</td>
+	<td>${wish1_name}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.wish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.account</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.back-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.open-search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.search-input</td>
+	<td>${market_userA_name}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.location-area.access-approved</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.ok-button.green-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.ok-button.green-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.hide-hybrid-products.access-approved</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.hide-hybrid-products.access-approved</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.anon-container &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=anonymous_browsing_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemRecentItems &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dropdown-control-placeholder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[3]/div[2]/div/div[2]/ul/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dropdown-control-placeholder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li.dropdown-control-list-item</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemMyItemsAndOffers &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemTransactionHistory &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemAddItem &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemAddItemWish &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemInviteFriend &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemSendCoins &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.header-closeButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemGetCoins &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div/div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemHelpCenter &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=menuItemPrivacyAndTerms</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemLogout &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForAlert</td>
+	<td>Coin settings successfully saved</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

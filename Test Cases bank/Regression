@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="Configuration">Configuration mirror</a></td></tr>
+<tr><td><a href="Open GCP">Open GCP</a></td></tr>
+<tr><td><a href="Login GCP">Login GCP</a></td></tr>
+<tr><td><a href="White list FB account">White list FB userA</a></td></tr>
+<tr><td><a href="White list FB account">White list FB userB</a></td></tr>
+<tr><td><a href="Switch to FB user A">Switch to FB user A</a></td></tr>
+<tr><td><a href="Open Market">Open Market</a></td></tr>
+<tr><td><a href="Login FB">Login FB (market)</a></td></tr>
+<tr><td><a href="Welcome notification">Welcome notification</a></td></tr>
+<tr><td><a href="Search users">Search users</a></td></tr>
+<tr><td><a href="Send message">Send message</a></td></tr>
+<tr><td><a href="Search item">Search item</a></td></tr>
+<tr><td><a href="Search using saved search">Search using saved search</a></td></tr>
+<tr><td><a href="Search clear history ">Search clear history </a></td></tr>
+<tr><td><a href="Send coins to minter">Send coins to minter</a></td></tr>
+<tr><td><a href="Change Location & Pickup">Change Location & Pickup</a></td></tr>
+<tr><td><a href="add_item">add_item</a></td></tr>
+<tr><td><a href="Profile page-Edit">Profile page-Edit</a></td></tr>
+<tr><td><a href="Logout">Logout</a></td></tr>
+<tr><td><a href="Switch to FB user B">Switch to FB user B</a></td></tr>
+<tr><td><a href="Open Market">Open Market</a></td></tr>
+<tr><td><a href="Login FB">Login FB</a></td></tr>
+<tr><td><a href="Item page-create offer">Item page-create offer</a></td></tr>
+<tr><td><a href="Logout">Logout</a></td></tr>
+</tbody></table>
+</body>
+</html>

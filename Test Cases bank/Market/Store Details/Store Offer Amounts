@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://eliran1.appcoin.me/" />
+<title>Store Offer Amounts</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Store Offer Amounts</td></tr>
+</thead><tbody>
+<tr>
+	<td>storeText</td>
+	<td>css=span.item-cost &gt; div.currency-control2 &gt; span.price &gt; span.wrapper &gt; span.coin-amount.whole</td>
+	<td>offerAmount</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['offerAmount'].replace(/,/g, '')</td>
+	<td>offerAmountReplaced</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>parseInt(storedVars['offerAmountReplaced'])</td>
+	<td>offerAmountInt</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The 1st offer amount is &gt;&gt; ${offerAmountInt}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=span.offer-cost &gt; div.currency-control2 &gt; span.price &gt; span.wrapper &gt; span.coin-amount.whole</td>
+	<td>offerAmount2</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['offerAmount2'].replace(/,/g, '')</td>
+	<td>offerAmount2Replaced</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>parseInt(storedVars['offerAmount2Replaced'])</td>
+	<td>offerAmount2Int</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The 2nd offer amount is &gt;&gt; ${offerAmoun2tInt}</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-oded1.herokuapp.com/" />
+<title>Language change</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Language change</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div/div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td>nextLanguage</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemRecentItems &gt; div.text</td>
+	<td>currentLanaguageRecentItems</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td>currentLanaguageBrowseMarket</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemMyItemsAndOffers &gt; div.text</td>
+	<td>currentLanaguageMyItemsAndOffers</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemSettings &gt; div.text</td>
+	<td>currentLanaguageSettings</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>'The next Language is:' ${nextLanguage}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div/div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td>previusLanguage</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemRecentItems &gt; div.text</td>
+	<td>NextLanaguageRecentItems</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td>NextLanaguageBrowseMarket</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemMyItemsAndOffers &gt; div.text</td>
+	<td>NextLanaguageMyItemsAndOffers</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemSettings &gt; div.text</td>
+	<td>NextLanaguageSettings</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>'The previus language is:' ${nextLanguage}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div/div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td>${nextLanguage}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemRecentItems &gt; div.text</td>
+	<td>${currentLanaguageRecentItems}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td>${currentLanaguageBrowseMarket}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemMyItemsAndOffers &gt; div.text</td>
+	<td>${currentLanaguageMyItemsAndOffers}</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#menuItemSettings &gt; div.text</td>
+	<td>${currentLanaguageSettings}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div/div/div/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemChangeLanguage &gt; div.text</td>
+	<td>${previusLanguage}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemRecentItems &gt; div.text</td>
+	<td>${NextLanaguageRecentItems}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td>${NextLanaguageBrowseMarket}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemMyItemsAndOffers &gt; div.text</td>
+	<td>${NextLanaguageMyItemsAndOffers}</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#menuItemSettings &gt; div.text</td>
+	<td>${NextLanaguageSettings}</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

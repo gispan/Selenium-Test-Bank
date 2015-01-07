@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://eliran1.appcoin.me/" />
+<title>Store Buyer Balance</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Store Buyer Balance</td></tr>
+</thead><tbody>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.balance</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=div.balance</td>
+	<td>balance</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['balance'].replace(/,/g, '')</td>
+	<td>balanceReplaced</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>parseInt(storedVars['balanceReplaced'])</td>
+	<td>buyerBalance</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The buyer balance is &gt;&gt; ${buyerBalance}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

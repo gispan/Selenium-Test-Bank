@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-eliran1.herokuapp.com/" />
+<title>Verify Receiver Notification</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Verify Receiver Notification</td></tr>
+</thead><tbody>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.notifications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.notifications</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.source_name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.source_name</td>
+	<td>${senderName}</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>This is the sender notification name &gt;&gt; ${NotificationSenderName}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//div[@id='notificationsPopup2']/div/ul/li/div[2]/div[2]/div</td>
+	<td>NotificationSenderAmount</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['NotificationSenderAmount'].replace(/\D/g,'')</td>
+	<td>NotificationSenderAmountReplaced</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>This is the sender notification amount &gt;&gt; ${NotificationSenderAmountReplacedInt}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>parseInt(storedVars['NotificationSenderAmountReplaced'])</td>
+	<td>NotificationSenderAmountReplacedInt</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>This is the sender notification amount &gt;&gt; ${NotificationSenderAmountReplacedInt}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyEval</td>
+	<td>storedVars['NotificationSenderAmountReplacedInt'] == ${amount}</td>
+	<td>true</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>check whether the amount is equal to the notification amount</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

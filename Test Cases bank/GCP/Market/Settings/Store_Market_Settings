@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-eliran1.herokuapp.com/" />
+<title>Store_Market_Settings</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Store_Market_Settings</td></tr>
+</thead><tbody>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=input.value.newUserGiftAmount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.newUserGiftAmount</td>
+	<td>newUserGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${newUserGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.firstItemCreatedGiftAmount</td>
+	<td>firstItemCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${firstItemCreatedGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.firstItemWithPictureCreatedGiftAmount</td>
+	<td>firstItemWithPictureCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${firstItemWithPictureCreatedGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.firstWishCreatedGiftAmount</td>
+	<td>firstWishCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${firstWishCreatedGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.firstWishWithPictureCreatedGiftAmount</td>
+	<td>firstWishWithPictureCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${firstWishWithPictureCreatedGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.wishWithPictureCreatedGiftAmount</td>
+	<td>wishWithPictureCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${wishWithPictureCreatedGiftAmount}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.itemCreatedGiftAmount</td>
+	<td>itemCreatedGiftAmount</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>storedVars['itemCreatedGiftAmount'].replace(/,/g, '')</td>
+	<td>itemCreatedGiftAmountReplaced</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>parseInt(storedVars['itemCreatedGiftAmountReplaced'])</td>
+	<td>itemCreatedGiftAmountInt</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${itemCreatedGiftAmountInt}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.defaultItemPrice</td>
+	<td>defaultItemPrice</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${defaultItemPrice}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.maxItemPrice</td>
+	<td>maxItemPrice</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${maxItemPrice}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.catsPerItem</td>
+	<td>catsPerItem</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${catsPerItem}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.beacon-active</td>
+	<td>beacon</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${beacon}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.help-active</td>
+	<td>help</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${help}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.rules-active</td>
+	<td>rules</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${rules}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.create-offer-balance-check</td>
+	<td>create_offer_balance_check</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${create_offer_balance_check}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.disable-multiple-pending-offers</td>
+	<td>disable_multiple_pending_offers</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${disable_multiple_pending_offers}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.pickup-location-leaf-only</td>
+	<td>pickup_location_leaf_only</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${pickup_location_leaf_only}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.limit-categories-per-item</td>
+	<td>limit_categories_per_item</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${limit_categories_per_item}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.first-item-show-message</td>
+	<td>first_item_show_message</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${first_item_show_message}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.second-item-show-message</td>
+	<td>second_item_show_message</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${second_item_show_message}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.profile-photo-mandatory-new-device</td>
+	<td>profile_photo_mandatory_new_device</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${profile_photo_mandatory_new_device}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.search-results-show-seller-image</td>
+	<td>search_results_show_seller_image</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${search_results_show_seller_image}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.new-welcome</td>
+	<td>new_welcome</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${new_welcome}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.voucher-create-permission</td>
+	<td>voucher_create_permission</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${voucher_create_permission}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeChecked</td>
+	<td>css=input.show-recent-items</td>
+	<td>show_recent_items</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${show_recent_items}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=select.comments-tab-select</td>
+	<td>comments_tab_select</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${comments_tab_select}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=select.notify-seller-select</td>
+	<td>notify_seller_select</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${notify_seller_select}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=select.notify-moderator-select</td>
+	<td>notify_moderator_select</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${notify_moderator_select}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.deliveryPendingRemindersInterval</td>
+	<td>deliveryPendingRemindersInterval</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${deliveryPendingRemindersInterval}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=input.value.deliveryPendingMaxReminders</td>
+	<td>deliveryPendingMaxReminders</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${deliveryPendingMaxReminders}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=select.external-coin-select</td>
+	<td>external_coin_select</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${external_coin_select}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>css=select.item-expiration-select</td>
+	<td>item_expiration_select</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${item_expiration_select}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

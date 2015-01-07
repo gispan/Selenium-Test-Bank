@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../Test Cases bank/Configuration">Configuration</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user B">Switch to FB user B</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="Send Coins/store receiver balance">Store Receiver Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Logout">Logout</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user A">Switch to FB user A</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="Send Coins/Store Sender Balance">Store Sender Balance</a></td></tr>
+<tr><td><a href="Send Coins/Store Sender Details">Store Sender Details</a></td></tr>
+<tr><td><a href="Send Coins/Search user">Search user</a></td></tr>
+<tr><td><a href="Send Coins/Send coins to minter">Send Coins to Minter</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Logout">Logout</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user B">Switch to FB user B</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="Send Coins/Verify Sender Header Balance">Verify Sender Header Balance</a></td></tr>
+<tr><td><a href="Send Coins/verifying receiver transaction page">verifying receiver transaction page</a></td></tr>
+<tr><td><a href="Send Coins/Verify Receiver Notification">Verify Receiver Notification</a></td></tr>
+</tbody></table>
+</body>
+</html>

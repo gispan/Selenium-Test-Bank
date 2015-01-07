@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-eliran1.herokuapp.com/" />
+<title>Send coins from Menu</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Send coins from Menu</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.balance-area</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemSendCoins &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=destination</td>
+	<td>${search_query}</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=sendCoinsDestSelectItem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=td.name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=amountSelectInput</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=amountSelectInput</td>
+	<td>${amount}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=personalMessage</td>
+	<td>${message}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=sendCoinsButton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=action_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=the_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=the_button</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

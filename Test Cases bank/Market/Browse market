@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-tal1.herokuapp.com/" />
+<title>Browse market</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Browse market</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.bottom-label.transparent-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.scroll-to-top &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dropdown-control-placeholder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=li.dropdown-control-list-item</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dropdown-control-placeholder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[3]/div[2]/div/div[2]/ul/li[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dropdown-control-placeholder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[3]/div[2]/div/div[2]/ul/li[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[3]/div[3]/div[3]/ul/div[3]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.menu-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#menuItemMarket &gt; div.text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.center &gt; div.label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='pageContainer']/div/div[4]/div[3]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.photo</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

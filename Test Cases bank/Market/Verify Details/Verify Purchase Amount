@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://eliran1.appcoin.me/" />
+<title>Verify Purchase Amount</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Verify Purchase Amount</td></tr>
+</thead><tbody>
+<tr>
+	<td>verifyEval</td>
+	<td>${offerAmountInt} == ${itemAmount}</td>
+	<td>true</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>Verifying whether the initial item amount &gt;&gt; ${itemAmount} is equal to the price presented on the offer page 1st &gt;&gt; ${offerAmountInt}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyEval</td>
+	<td>${offerAmount2Int} == ${itemAmount}</td>
+	<td>true</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>Verifying whether the initial item amount &gt;&gt; ${itemAmount} is equal to the price presented on the offer page 2nd &gt;&gt; ${offerAmount2Int}</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

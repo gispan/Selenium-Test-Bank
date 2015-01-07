@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-mati1.herokuapp.com/" />
+<title>Block User via Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Block User via Admin</td></tr>
+</thead><tbody>
+<!--Block userB-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.admin-dropdown-icon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.admin-dropdown-icon</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.block-profile.last</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.block-profile.last</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=text_entry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text_entry</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=action_button</td>
+	<td></td>
+</tr>
+<!--Search for blocked userB-->
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://mirror-appcoin-production.herokuapp.com/" />
+<title>Configuration mirror</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Configuration mirror</td></tr>
+</thead><tbody>
+<tr>
+	<td>store</td>
+	<td>http://test.appcoin.me/</td>
+	<td>test_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>#marketLogin</td>
+	<td>login</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>https://mirror-appcoin-production.herokuapp.com/</td>
+	<td>mirror_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>market/instances/levmarket/app.html?</td>
+	<td>levmarket</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>${test_url}${levmarket}${login}</td>
+	<td>market_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>${test_url}governor</td>
+	<td>gcp_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>first_iudijuy_first@tfbnw.net</td>
+	<td>1st_user_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>205390286</td>
+	<td>1st_user_pass</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>second_sbkvbqx_second@tfbnw.net</td>
+	<td>2nd_user_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>141544251</td>
+	<td>2nd_user_pass</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>second</td>
+	<td>search_query</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>2</td>
+	<td>amount</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>From Selenium</td>
+	<td>message</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>a rare t-shirt of wwf</td>
+	<td>itemTitle</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>Test Description item</td>
+	<td>itemDescription</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>3</td>
+	<td>itemAmount</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>http://static.gamesradar.com/images/totalfilm/n/new-the-great-gatsby-trailer-showcases-stunning-soundtrack-131694-a-1365083346-470-75.jpg</td>
+	<td>imageURL</td>
+</tr>
+<!---->
+<!--Mati's Shit-->
+<tr>
+	<td>store</td>
+	<td>https://facebook.com</td>
+	<td>fb_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>shalom lerner</td>
+	<td>market_userA_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>5459189f3b1226020054e32b</td>
+	<td>market_userA_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>shalomlerner@hotmail.com</td>
+	<td>fb_userA_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>shalom1234</td>
+	<td>fb_userA_password</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>100006686707675</td>
+	<td>fb_userA_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>ravit shulman</td>
+	<td>market_userB_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>5459189f3b1226020054e32b</td>
+	<td>market_userB_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>ravitshulman@gmail.com</td>
+	<td>fb_userB_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>ravit1234</td>
+	<td>fb_userB_password</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>100007006664471</td>
+	<td>fb_userB_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>market_admin@appcoin.me</td>
+	<td>gcp_user</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>123456</td>
+	<td>gcp_pass</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>צוות לב מרקט</td>
+	<td>levmarket_minter_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>חולצה</td>
+	<td>item1_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>ספר</td>
+	<td>wish1_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>id=anonymous_browsing_button</td>
+	<td>btn_login_guest</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>id=facebook_login_button</td>
+	<td>btn_login_fb</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>id=email_login_button</td>
+	<td>btn_login_email</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-mati1.herokuapp.com/" />
+<title>Unblock User via Admin</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Unblock User via Admin</td></tr>
+</thead><tbody>
+<tr>
+	<td>storeLocation</td>
+	<td>url</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>&quot;${url}&quot;.split(&quot;=&quot;)[1]</td>
+	<td>market_userB_id</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${market_userB_id}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.open-search-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.search-input</td>
+	<td>${market_userB_id}</td>
+</tr>
+<tr>
+	<td>storeElementPresent</td>
+	<td>css=div.name</td>
+	<td>userB_name</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>storedVars['userA_name']==['market_userB_name']</td>
+	<td>continue</td>
+</tr>
+<tr>
+	<td>refresh</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>${market_url}#!profile?account_id=${market_userB_id}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=button.blue-button.unblock-profile</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.blue-button.unblock-profile</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

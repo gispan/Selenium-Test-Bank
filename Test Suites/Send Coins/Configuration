@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://mirror-appcoin-production.herokuapp.com/" />
+<title>Configuration mirror</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Configuration mirror</td></tr>
+</thead><tbody>
+<tr>
+	<td>store</td>
+	<td>https://appcoin-eliran1.herokuapp.com//market/instances/levmarket/app.html</td>
+	<td>market_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>https://appcoin-eliran1.herokuapp.com/governor</td>
+	<td>gcp_url</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>second</td>
+	<td>market_user1_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td></td>
+	<td>market_user1_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>first_iudijuy_first@tfbnw.net</td>
+	<td>fb_userA_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>205390286</td>
+	<td>fb_userA_password</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>100006928037059</td>
+	<td>fb_userA_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>second_sbkvbqx_second@tfbnw.net</td>
+	<td>fb_userB_email</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>141544251</td>
+	<td>fb_userB_password</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>100007117727042</td>
+	<td>fb_userB_id</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>test_levhrt@appcoin.me</td>
+	<td>gcp_user</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>HDANGKeHr32p</td>
+	<td>gcp_password</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>or alterman</td>
+	<td>minter_name</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>תמיכה מרחוק</td>
+	<td>item1_name</td>
+</tr>
+</tbody></table>
+</body>
+</html>

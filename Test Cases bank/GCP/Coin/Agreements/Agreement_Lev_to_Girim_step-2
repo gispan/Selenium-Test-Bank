@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://appcoin-eliran1.herokuapp.com/" />
+<title>Agreement_Lev_to_Girim_step-2</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Agreement_Lev_to_Girim_step-2</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>link=Coin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Agreements</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.approve</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Approving the agreement will cancel the active agreement if one exists. Continue?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=td.status.active</td>
+	<td>status</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${status}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>${status}</td>
+	<td>active</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

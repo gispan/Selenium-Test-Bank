@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://appcoin-tal1.herokuapp.com/" />
+<title>test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test</td></tr>
+</thead><tbody>
+<tr>
+	<td>click</td>
+	<td>link=Accounts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.filter</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.filter</td>
+	<td>tal</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=td.user</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.top-nav &gt; ul &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='page']/div/div/div[2]/div[2]/table/tbody/tr[4]/td[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>css=select.role-select</td>
+	<td>label=Voucher Seller</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.add-role</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Add role?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Transfer Funds</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.amount</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=input.personal-message</td>
+	<td>Selenium</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.transfer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Transfer funds?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>Transfer Successful</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

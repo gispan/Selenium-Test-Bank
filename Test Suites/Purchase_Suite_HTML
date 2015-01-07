@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../Test Cases bank/Configuration">Configuration</a></td></tr>
+<tr><td><a href="../Test Cases bank/GCP/Login/Login to GCP">Login to GCP</a></td></tr>
+<tr><td><a href="../Test Cases bank/GCP/Market/Settings/GoTo_Market_Settings">GoTo_Market_Settings</a></td></tr>
+<tr><td><a href="../Test Cases bank/GCP/Market/Settings/Store_Market_Settings">Store_Market_Settings</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user A">Switch to FB user A</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store Seller Balance">Store Seller Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Go to Pages/Go_To_Add_Item_page">Go_To_Add_Item_page</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Items : Wishes/add_item">add_item</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Logout">Logout</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user B">Switch to FB user B</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store Buyer Balance">Store Buyer Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Items : Wishes/search_item">search_item</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Actions between users/Purchase_item">Purchase_item</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Logout">Logout</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user A">Switch to FB user A</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Go to Pages/Go_To_My_Transaction">Go_To_My_Transaction</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store expected seller balance">Store expected seller balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Actions between users/Approve_purchase">Approve_purchase</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store Offer Amounts">Store Offer Amounts</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Verify Details/Verify Purchase Amount">Verify Purchase Amount</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Go to Pages/Go_To_My_Transaction">Go_To_My_Transaction</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store Seller Balance">Store Seller Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Verify Details/Verify Seller Balance">Verify Seller Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Logout">Logout</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Switch to FB user B">Switch to FB user B</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/Open Market">Open Market</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Login Method/FaceBook/Login via FB.html">Login via FB</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Go to Pages/Go_To_My_Items">Go_To_My_Items</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Actions between users/Item_Received">Item_Received</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store expected buyer Balance">Store expected buyer Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Store Details/Store Buyer Balance">Store Buyer Balance</a></td></tr>
+<tr><td><a href="../Test Cases bank/Market/Verify Details/Verify Buyer Balance">Verify Buyer Balance</a></td></tr>
+</tbody></table>
+</body>
+</html>
